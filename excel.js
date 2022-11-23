@@ -49,7 +49,7 @@ function showData(data) {
 
 async function exportToExcel(fileName, sheetName, report) {
     if (!myData || myData.length === 0) {
-        console.error('ChÆ°a cĂ³ data');
+        console.error('Chưa có dữ liệu');
         return;
     }
     console.log('exportToExcel', myData);
